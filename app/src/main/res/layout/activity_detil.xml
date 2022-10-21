@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DetilActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="#DDDDDD"
+        android:id="@+id/carImage"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Id"
+        android:layout_margin="8dp"
+        android:textColor="@color/black"
+        android:layout_alignParentEnd="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/carImage"
+        android:id="@+id/tvId"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="nama"
+        android:layout_margin="8dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@id/carImage"
+        android:id="@+id/tvName"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Category"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvName"
+        android:id="@+id/tvCategory"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Price"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCategory"
+        android:id="@+id/tvPrice"/>
+
+</RelativeLayout>
